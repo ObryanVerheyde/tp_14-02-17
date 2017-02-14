@@ -1,0 +1,72 @@
+body
+{
+  text-align: center;
+  background-color: grey;
+}
+
+iframe
+{
+  max-width: 100%;
+}
+
+#onglet_qui, #onglet_pourquoi, #onglet_contact, #contenu_onglet_qui, #contenu_onglet_pourquoi, #contenu_onglet_contact
+{
+  background-color: black;
+  color: white;
+}
+
+#onglet_quoi, #onglet_presentation_personnelle, #contenu_onglet_quoi, #contenu_onglet_presentation_personnelle
+{
+  background-color: white;
+  color: black;
+}
+
+.onglet
+{
+  display:inline-block;
+  margin-left:3px;
+  margin-right:3px;
+  padding:3px;
+  border:1px solid black;
+  cursor:pointer;
+}
+
+.onglet_0
+{
+  background:#bbbbbb;
+  border-bottom:1px solid black;
+}
+
+.onglet_1
+{
+  background:#dddddd;
+  border-bottom:0px solid black;
+  padding-bottom:4px;
+}
+
+.contenu_onglet
+{
+  background-color:#dddddd;
+  border:1px solid black;
+  margin-top:-1px;
+  padding:5px;
+  display:none;
+}
+
+ul
+{
+  margin-top:0px;
+  margin-bottom:0px;
+  margin-left:-10px
+}
+
+h1
+{
+  margin:0px;
+  padding:0px;
+}
+
+img
+{
+  max-width: 100%;
+}

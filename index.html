@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Un système d'onglet en javascript</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <script src="js/script.js"></script>
+    </head>
+
+    <body>
+        <div class="systeme_onglets">
+            <div class="onglets">
+                <span class="onglet_0 onglet" id="onglet_qui" onclick="javascript:change_onglet('qui');">
+                  Accueil
+                </span>
+                <span class="onglet_0 onglet" id="onglet_quoi" onclick="javascript:change_onglet('quoi');">
+                  Présentation
+                </span>
+                <span class="onglet_0 onglet" id="onglet_pourquoi" onclick="javascript:change_onglet('pourquoi');">
+                  Démonstration
+                </span>
+                <span class="onglet_0 onglet" id="onglet_presentation_personnelle" onclick="javascript:change_onglet('presentation_personnelle');">
+                  Présentation personnelle
+                </span>
+                <span class="onglet_0 onglet" id="onglet_contact" onclick="javascript:change_onglet('contact');">
+                  Contact
+                </span>
+            </div>
+            <div class="contenu_onglets">
+                <div class="contenu_onglet" id="contenu_onglet_qui">
+                    <h1>
+                      Accueil
+                    </h1>
+                    <img src="images/raspberry_pi.jpg" alt="raspberry_pi">
+                    <p>
+                      Bienvenue sur la page d'accueil. Ce projet vise à présenter le Raspberry Pi.
+                    </p>
+                </div>
+                <div class="contenu_onglet" id="contenu_onglet_quoi">
+                    <h1>
+                      Présentation
+                    </h1>
+                    <p>
+                      Le Raspberry Pi est un nano-ordinateur monocarte à processeur ARM conçu par le créateur de jeux vidéo David Braben,
+                      dans le cadre de sa fondation Raspberry Pi.
+                    </p>
+                    <p>
+                      Cet ordinateur, qui a la taille d'une carte de crédit, est destiné à encourager l'apprentissage de la programmation informatique2 ;
+                      il permet l'exécution de plusieurs variantes du système d'exploitation libre GNU/Linux et des logiciels compatibles.
+                      Il est fourni nu (carte mère seule, sans boîtier, alimentation, clavier, souris ni écran)
+                      dans l'objectif de diminuer les coûts et de permettre l'utilisation de matériel de récupération.
+                    </p>
+                    <p>
+                      Son prix de vente était estimé à 25 $, soit 19,09 €, début mai 2011.
+                      Les premiers exemplaires ont été mis en vente le 29 février 2012 pour environ 25 €.
+                      En septembre 2016, plus de dix millions de Raspberry Pi ont été vendus.
+                      De multiples versions ont été développées, les dernières sont vendues un peu plus de 25 € pour le B+, à un peu plus de 30 € pour le Pi 2 (2015),
+                      un peu plus de 38 € pour le Pi 3 (2016) et 5$ pour le Raspberry Zero (2016)
+                    </p>
+                    <img src="images/raspberry_pi_module.png" alt="module raspberry">
+                    <p>
+                      En 2006, les premiers prototypes du Raspberry Pi sont développés sur des microcontrôleurs Atmel ATmega 644.
+                      Le schéma et le plan du circuit imprimé sont rendus publics.
+                      Cet ordinateur s'inspire du BBC Micro d'Acorn Computer (1981) et est destiné à encourager la jeunesse à la programmation.
+                      Le premier prototype ARM est intégré dans un boitier de la même taille qu'une clé USB avec un port USB d'un côté et un port HDMI de l'autre.
+                    </p>
+                    <p>
+                      L'objectif de la fondation est alors de proposer deux versions, l'une à 25 $ US et une deuxième à 35 $ US.
+                      L'ouverture des commandes pour le modèle B (le plus cher) a eu lieu le 29 février 20129 et le 4 février 2013 pour le modèle A (le moins cher).
+                    </p>
+                </div>
+                <div class="contenu_onglet" id="contenu_onglet_pourquoi">
+                    <h1>
+                      Démonstration
+                    </h1>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/bigVLTWdlyA" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="contenu_onglet" id="contenu_onglet_presentation_personnelle">
+                    <h1>
+                      Démonstration
+                    </h1>
+                    Pour simplifier la navigation et la diviser en parties
+                </div>
+                <div class="contenu_onglet" id="contenu_onglet_contact">
+                    <h1>
+                      Démonstration
+                    </h1>
+                    Pour simplifier la navigation et la diviser en parties
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
