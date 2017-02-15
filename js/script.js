@@ -7,5 +7,5 @@ function change_onglet(name)
   anc_onglet = name;
 }
 
-var anc_onglet = 'quoi';
+var anc_onglet = 'presentation';
 change_onglet(anc_onglet);

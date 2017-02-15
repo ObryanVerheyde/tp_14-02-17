@@ -11,33 +11,39 @@
     <body>
         <div class="systeme_onglets">
             <div class="onglets">
-                <span class="onglet_0 onglet" id="onglet_qui" onclick="javascript:change_onglet('qui');">
+                <span class="onglet_0 onglet" id="onglet_accueil" onclick="javascript:change_onglet('accueil');">
                   Accueil
                 </span>
-                <span class="onglet_0 onglet" id="onglet_quoi" onclick="javascript:change_onglet('quoi');">
+                <span class="onglet_0 onglet" id="onglet_presentation" onclick="javascript:change_onglet('presentation');">
                   Présentation
                 </span>
-                <span class="onglet_0 onglet" id="onglet_pourquoi" onclick="javascript:change_onglet('pourquoi');">
+                <span class="onglet_0 onglet" id="onglet_demonstration" onclick="javascript:change_onglet('demonstration');">
                   Démonstration
                 </span>
-                <span class="onglet_0 onglet" id="onglet_presentation_personnelle" onclick="javascript:change_onglet('presentation_personnelle');">
-                  Présentation personnelle
+                <span class="onglet_0 onglet" id="onglet_presentation_david_braben" onclick="javascript:change_onglet('presentation_david_braben');">
+                  Présentation David Braben
                 </span>
                 <span class="onglet_0 onglet" id="onglet_contact" onclick="javascript:change_onglet('contact');">
                   Contact
                 </span>
             </div>
             <div class="contenu_onglets">
-                <div class="contenu_onglet" id="contenu_onglet_qui">
+                <div class="contenu_onglet" id="contenu_onglet_accueil">
                     <h1>
-                      Accueil
+                      Bienvenue dans le monde du Raspberry Pi !
                     </h1>
                     <img src="images/raspberry_pi.jpg" alt="raspberry_pi">
                     <p>
-                      Bienvenue sur la page d'accueil. Ce projet vise à présenter le Raspberry Pi.
+                      Proposé par la fondation britannique Raspberry Pi Foundation, le Raspberry Pi (ou RasPi)
+                      est un incroyable ordinateur low cost de la taille d'une carte de crédit qui se connecte sur votre téléviseur
+                      ou sur n'importe quel autre dispositif d'affichage disposant d'une entrée HDMI ou Vidéo (RCA).
                     </p>
+                    <p>
+                      Ci-dessous le Raspberry Pi 3 modèle B actuellement en vente aux alentours de 35 euros.
+                    </p>
+                    <img src="images/raspi.jpg" alt="raspi 3">
                 </div>
-                <div class="contenu_onglet" id="contenu_onglet_quoi">
+                <div class="contenu_onglet" id="contenu_onglet_presentation">
                     <h1>
                       Présentation
                     </h1>
@@ -70,23 +76,59 @@
                       L'ouverture des commandes pour le modèle B (le plus cher) a eu lieu le 29 février 20129 et le 4 février 2013 pour le modèle A (le moins cher).
                     </p>
                 </div>
-                <div class="contenu_onglet" id="contenu_onglet_pourquoi">
+                <div class="contenu_onglet" id="contenu_onglet_demonstration">
                     <h1>
                       Démonstration
                     </h1>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/bigVLTWdlyA" frameborder="0" allowfullscreen></iframe>
+                    <p>
+                      En créant le Raspberry Pi, la fondation voulait proposer un ordinateur pas cher et performant pour faciliter l'apprentissage
+                      de l'informatique au plus grand nombre et plus particulièrement aux plus jeunes.
+                      Aujourd'hui, force est de constater que ce petit appareil rencontre un grand succès dans différents domaines :
+                      jeux videos, serveur web, serveur multimédia, robotique, etc...
+                      Même de grosses entreprises comme Google s'y intéressent, notamment avec le projet Coder, un outil d'initiation au développement web.
+                    </p>
+                    <p>
+                      Le Raspberry Pi peut même donner naissance à certains produits grand public comme
+                      par exemple avec le boitier KinouTV de la start-up française Kinoulink.
+                      On ne compte plus le nombre de projets qui voient le jour autour du Raspberry Pi,
+                      un simple petit tour sur les différents liens de ce site ou une simple recherche sur Internet vous permettra de voir le véritable
+                      potentiel de ce merveilleux petit ordinateur.
+                    </p>
                 </div>
-                <div class="contenu_onglet" id="contenu_onglet_presentation_personnelle">
+                <div class="contenu_onglet" id="contenu_onglet_presentation_david_braben">
                     <h1>
-                      Démonstration
+                      David Braben
                     </h1>
-                    Pour simplifier la navigation et la diviser en parties
+                    <p>
+                      David Braben est un programmeur britannique de jeux vidéo connu pour avoir conçu le jeu vidéo Elite ainsi que ses suites.
+                      Il est né à Basford en 1964. Il est également connu pour être le concepteur du Raspberry Pi, un ordinateur low-cost.
+                    </p>
+                    <img src="images/david_braben.jpg" alt="David Braben">
+                    <p>
+                      David Braben programma Elite aux côtés de Ian Bell alors qu'ils étudiaient à l'Université de Cambridge.
+                      Par la suite, il développa Zarch sur Acorn Archimedes (porté ensuite sur différentes plates-formes sous le nom Virus).
+                      Après Zarch, Braben fonda Frontier Developments, une société de développement de jeux vidéo
+                      dont le premier projet a été la création d'une suite pour Elite intitulée Frontier: Elite II.
+                      Actuellement, Braben est toujours le dirigeant de la compagnie.
+                    </p>
                 </div>
                 <div class="contenu_onglet" id="contenu_onglet_contact">
                     <h1>
-                      Démonstration
+                      Liens utiles
                     </h1>
-                    Pour simplifier la navigation et la diviser en parties
+                    <a href="https://www.raspberrypi.org/" target="_blank">
+                      <img src="images/raspi_org.jpg" alt="RaspberryPi.org">
+                    </a>
+                    <a href="https://www.raspberrypi-france.fr/" target="_blank">
+                      <img src="images/raspberry_france.jpg" alt="Raspberry Pi France">
+                    </a>
+                    <a href="https://www.raspbian-france.fr/" target="_blank">
+                      <img src="images/raspbian_france.jpg" alt="Raspbian France">
+                    </a>
+                    <a href="http://www.framboise314.fr/" target="_blank">
+                      <img src="images/framboise_314.jpg" alt="Framboise314.fr">
+                    </a>
                 </div>
             </div>
         </div>

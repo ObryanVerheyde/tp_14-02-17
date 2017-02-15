@@ -9,13 +9,13 @@ iframe
   max-width: 100%;
 }
 
-#onglet_qui, #onglet_pourquoi, #onglet_contact, #contenu_onglet_qui, #contenu_onglet_pourquoi, #contenu_onglet_contact
+#onglet_accueil, #onglet_demonstration, #onglet_contact, #contenu_onglet_accueil, #contenu_onglet_demonstration, #contenu_onglet_contact
 {
   background-color: black;
   color: white;
 }
 
-#onglet_quoi, #onglet_presentation_personnelle, #contenu_onglet_quoi, #contenu_onglet_presentation_personnelle
+#onglet_presentation, #onglet_presentation_david_braben, #contenu_onglet_presentation, #contenu_onglet_presentation_david_braben
 {
   background-color: white;
   color: black;
