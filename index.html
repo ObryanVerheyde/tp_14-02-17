@@ -115,20 +115,25 @@
                 </div>
                 <div class="contenu_onglet" id="contenu_onglet_contact">
                     <h1>
-                      Liens utiles
+                      Si vous souhaitez nous contacter :
                     </h1>
-                    <a href="https://www.raspberrypi.org/" target="_blank">
-                      <img src="images/raspi_org.jpg" alt="RaspberryPi.org">
-                    </a>
-                    <a href="https://www.raspberrypi-france.fr/" target="_blank">
-                      <img src="images/raspberry_france.jpg" alt="Raspberry Pi France">
-                    </a>
-                    <a href="https://www.raspbian-france.fr/" target="_blank">
-                      <img src="images/raspbian_france.jpg" alt="Raspbian France">
-                    </a>
-                    <a href="http://www.framboise314.fr/" target="_blank">
-                      <img src="images/framboise_314.jpg" alt="Framboise314.fr">
-                    </a>
+                    <form method="post" action="traitement.php">
+                        <p>
+                          <label for="name">Votre nom :</label>
+                          <br />
+                          <input type="text" name="nom" id="nom" />
+                        </p>
+                        <p>
+                          <label for="prenom">Votre prénom :</label>
+                          <br/>
+                          <input type="text" name="prenom" id="prenom" />
+                        </p>
+                        <p>
+                          <label for="email">Votre adresse e-mail :</label>
+                          <br/>
+                          <input type="email" />
+                        </p>
+                    </form>
                 </div>
             </div>
         </div>
